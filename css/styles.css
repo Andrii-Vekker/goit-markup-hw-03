@@ -10,6 +10,31 @@ main-title-font-color #212121
 secondary-title-font-color #fffff--f
 text-color #757575*/
 /* стили веб-студия */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body,
+p,
+h1,
+h2,
+h3,
+b {
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
 :root {
   --bcg-icon-color: #f5f4fa;
   --accent-color: #2196f3;
@@ -27,7 +52,6 @@ body {
   background-color: #ffffff;
   color: var(--main-title-font-color);
   text-decoration: none;
-  list-style: none;
 }
 .container {
   width: 1200px;
@@ -36,16 +60,13 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-ul {
-  list-style: inherit;
-}
 a {
   text-decoration: inherit;
 }
 /* shapka */
 .logo {
   font-family: Raleway;
-  font-style: inherit;
+  font-style: normal;
   font-weight: 700;
   color: var(--main-title-font-color);
 }
@@ -64,6 +85,9 @@ a {
 .list-nav a:focus {
   color: var(--accent-color);
 }
+.list-nav {
+  display: flex;
+}
 /* contacts */
 .list-adress-item-link {
   font-style: normal;
@@ -79,6 +103,7 @@ a {
 }
 /* hero */
 .hero {
+  width: 696px;
   background-color: black;
 }
 .hero-title {
@@ -118,6 +143,10 @@ a {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+.list-about-us li {
+  width: 270px;
+}
+
 /* what we do */
 .what-we-do-main-title {
   font-style: normal;
@@ -135,6 +164,9 @@ a {
   letter-spacing: 0.03em;
   color: var(--secondary-title-font-color);
   background-color: brown;
+}
+.what-we-do-list li {
+  width: 370px;
 }
 /* our team */
 .our-team-main-title {
@@ -161,6 +193,9 @@ a {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+.our-team-list > li {
+  width: 270px;
+}
 /* regular customers */
 .regular-customers {
   font-style: normal;
@@ -176,13 +211,14 @@ a {
   width: 1600px;
   height: 252px;
 }
-.list-item-web .location {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+.contacts {
+  width: 231px;
+}
+.contacts > a {
   color: var(--secondary-title-font-color);
+}
+.join {
+  width: 206px;
 }
 .address {
   font-style: normal;
@@ -208,19 +244,31 @@ a {
   letter-spacing: 0.03em;
   color: var(--secondary-title-font-color);
 }
+.contacts {
+  width: 231px;
+}
+.contacts > a {
+  color: var(--secondary-title-font-color);
+}
+.join {
+  width: 206px;
+}
+
 /* стилизация страницы портфолио */
+/* filter list */
 .filter-list-btns-item {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  background-color: var(-bcg-icon-color: #f5f4fa);
+  background-color: var(--bcg-icon-color);
 }
 .filter-list-btns-item:hover,
 .filter-list-btns-item:focus {
   background-color: var(--accent-color);
 }
+/* our projects */
 .techno {
   font-style: normal;
   font-weight: normal;
@@ -245,7 +293,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-/* footer */
-.footer > a {
-  color: var(--secondary-title-font-color);
+.our-projects > li {
+  width: 370px;
 }
+/* footer */
