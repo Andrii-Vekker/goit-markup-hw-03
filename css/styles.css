@@ -60,6 +60,8 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+nav {
+}
 a {
   text-decoration: inherit;
 }
@@ -242,12 +244,6 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-title-font-color);
-}
-.contacts {
-  width: 231px;
-}
-.contacts > a {
   color: var(--secondary-title-font-color);
 }
 .join {
