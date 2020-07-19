@@ -125,10 +125,10 @@ a {
 }
 /* hero */
 .hero {
-  padding-top: 199px;
-  padding-bottom: 200px;
   background-color: black;
   text-align: center;
+  padding-top: 199px;
+  padding-bottom: 200px;
 }
 .hero-title {
   margin-bottom: 30px;
@@ -277,6 +277,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 24px;
 }
 .our-team-list-ikon-item:not(:last-child) {
   margin-right: 10px;
@@ -291,9 +292,9 @@ a {
   color: var(--main-title-font-color);
 }
 .regular-customers-main-title {
+  padding-top: 94px;
   text-align: center;
   margin-bottom: 50px;
-  padding-top: 94px;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -303,58 +304,78 @@ a {
 }
 .regular-customers-list {
   display: flex;
+  margin-bottom: 100.5px;
 }
 .regular-customers-list-item {
-  width: 170px;
-  height: 90px;
-  left: 615px;
-  top: 2487px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 170px;
+height: 90px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
 }
 .regular-customers-list-item:not(:last-child) {
   margin-right: 30px;
 }
 /* footer */
 .footer {
-  background-color: #2f303a;
+  background: #2f303a;
+}
+.flex-container{
+  display: flex;
+}
+.contacts{
+  margin-right: 69px;
+  padding: 53.5px 66.5px;
+}
+.join{
+  margin-right: 94px;
+ padding-top: 66.5px;
+ padding-bottom:  106.5px;
 }
 .logo-footer {
-  padding-top: 60px;
-  margin-bottom: 20px;
-  font-family: Raleway;
+    font-family: Raleway;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   color: var(--secondary-title-font-color);
 }
-/* .contacts {
-  width: 231px;
-} */
-.contacts > a {
+.footer-container > a {
   color: var(--secondary-title-font-color);
 }
-/* .join {
-  width: 206px;
-} */
 .address {
+  margin-top: 20px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.21;
   color: var(--secondary-title-font-color);
 }
+.address-list-item:not(:last-child){
+margin-bottom: 9px;
+}
 /* join-in */
-.join-in {
+.join-in{
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-title-font-color);
+}
+.footer-container-item {
+  margin-left: 94px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-font-color);
+}
+.subscribe-main{
+  padding-top: 66.5px;
+  padding-bottom:  106.5px;
 }
 .subscribe {
   font-style: normal;
@@ -363,15 +384,12 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-title-font-color);
-}
-/* .join {
-  width: 206px;
-} */
+
 
 /* стилизация страницы портфолио */
 /* filter list */
-.filter-list-btns-item {
-  font-style: normal;
+.filter-list-btns{
+   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
