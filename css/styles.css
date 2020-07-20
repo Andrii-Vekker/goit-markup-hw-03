@@ -60,6 +60,19 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.head-style {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+}
 nav {
   display: flex;
   align-items: center;
@@ -74,7 +87,6 @@ a {
   font-weight: 700;
   font-size: 26px;
   color: var(--main-title-font-color);
-  margin-left: 215px;
   margin-right: 85px;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -150,12 +162,8 @@ a {
   background-color: var(--accent-color);
 }
 /* about us */
-.about-us {
-  padding-top: 94px;
-}
 .list-about-us {
   display: flex;
-  align-items: center;
 }
 .list-about-us-item:not(:last-child) {
   margin-right: 30px;
@@ -191,9 +199,6 @@ a {
 }
 
 /* what we do */
-.what-we-do {
-  padding: 94px;
-}
 .what-we-do-list {
   display: flex;
   align-items: center;
@@ -292,7 +297,6 @@ a {
   color: var(--main-title-font-color);
 }
 .regular-customers-main-title {
-  padding-top: 94px;
   text-align: center;
   margin-bottom: 50px;
   font-style: normal;
@@ -304,7 +308,6 @@ a {
 }
 .regular-customers-list {
   display: flex;
-  margin-bottom: 100.5px;
 }
 .regular-customers-list-item {
   display: flex;
@@ -327,12 +330,13 @@ a {
 }
 .contacts {
   margin-right: 69px;
-  padding: 53.5px 66.5px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .join {
   margin-right: 94px;
-  padding-top: 66.5px;
-  padding-bottom: 106.5px;
+  padding-top: 72px;
+  padding-bottom: 100px;
 }
 .logo-footer {
   font-family: Raleway;
@@ -355,15 +359,6 @@ a {
 .address-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
-/* join-in */
-.join-in {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--secondary-title-font-color);
-}
 .footer-container-item {
   margin-left: 94px;
   font-style: normal;
@@ -374,22 +369,13 @@ a {
   color: var(--secondary-title-font-color);
 }
 .subscribe-main {
-  padding-top: 66.5px;
-  padding-bottom: 106.5px;
-}
-.subscribe {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--secondary-title-font-color);
+  padding-top: 72px;
+  padding-bottom: 94px;
 }
 /* стилизация страницы портфолио */
 /* filter list */
 /* our projects */
 .filter {
-  padding-top: 93px;
   margin-bottom: 34px;
 }
 .filter-list-btns {
